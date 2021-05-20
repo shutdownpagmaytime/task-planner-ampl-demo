@@ -322,3 +322,27 @@ body {
         opacity: 1;
     }
 }
+
+.row {
+    height: 100%;
+}
+
+.rtl {
+     direction: rtl;
+}
+
+.rtl * {
+     direction: ltr;
+}
+.main-view {
+    padding-right:380px;
+    z-index: 0;
+    height: 100%;
+    background-image:url('../images/mt-fuji.jpg');
+    background-repeat:no-repeat;
+}
+
+.main-view-content {
+      min-width: 400px;
+}
+
