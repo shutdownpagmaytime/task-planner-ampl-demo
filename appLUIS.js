@@ -31,7 +31,7 @@ server.post('/api/messages', connector.listen())
 
 // Setup LUIS connection
 
-var model = 'https://task-planner-ampl.cognitiveservices.azure.com/luis/prediction/v3.0/apps/ec9e06bc-c945-43dd-868c-ce34c7a25e0d/slots/production/predict?subscription-key=ff243b3c0053464789bde3820b8ec8fb&verbose=true&show-all-intents=true&log=true&'
+var model = 'https://task-planner-ampl.cognitiveservices.azure.com/luis/prediction/v3.0/apps/ec9e06bc-c945-43dd-868c-ce34c7a25e0d/slots/production/predict?subscription-key=ff243b3c0053464789bde3820b8ec8fb&verbose=true&show-all-intents=true&log=true'
 var recognizer = new builder.LuisRecognizer(model)
 var dialog = new builder.IntentDialog({recognizers: [recognizer]})
 bot.dialog('/', dialog)
