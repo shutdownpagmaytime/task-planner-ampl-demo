@@ -18,7 +18,7 @@
 
     --font-family: cursive;
 }
-.main-view {
+/* .main-view {
     padding-right:380px;
     z-index: 0;
     height: 100%;
@@ -27,7 +27,7 @@
 }
 .main-view-content {
     min-width: 400px;
-}
+} */
 .dark {
     --bg-body: var(--dark-body);
     --bg-main: var(--dark-main);
