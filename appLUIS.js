@@ -42,7 +42,7 @@ bot.dialog('/', dialog)
 
 dialog.matches('Greeting', [
   function (session, results) {
-    session.send('Hello GOTO Conference! Can I help find a session for you?')
+    session.send('Welcome to Task-Planner! Can I help find a session for you?')
   }
 ])
 
@@ -66,7 +66,7 @@ dialog.matches('SearchByTime', [
 
 dialog.matches('EndConvo', [
   function (session, results) {
-    session.send('Have a great GOTO Conference! Bye!')
+    session.send('Have a great! Bye!')
   }
 ])
 
